@@ -5,7 +5,7 @@ import vehicles from "@/lib/vehicles.json";
 import { estimateWrap, WrapInput, WRAP_SETTINGS, VehicleType } from "@/lib/wrap-ui-helpers";
 
 export default function WrapCalculatorPage() {
-  const { t } = require("@/lib/i18n").useI18n();
+  const { t } = require("@/lib/i18n.tsx").useI18n.tsx();
   const [form, setForm] = useState<WrapInput>({
     brand: "",
     model: "",
