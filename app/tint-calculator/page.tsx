@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useI18n } from "@/lib/i18n";
+import { useI18n } from "@/lib/i18n.tsx";
 import { estimateTintBuilding, FilmSeries, TINT_SETTINGS } from "@/lib/tint-ui-helpers";
 
 export default function TintCalculatorPage() {
