@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useI18n } from "@/lib/i18n";
+import { useI18n } from "@/lib/i18n.tsx";
 
 export default function Home() {
-  const { t } = useI18n();
+  const { t } = useI18n.tsx();
   const badges = t('badges').split(';').map(s=>s.trim());
   return (
     <div className="py-12 space-y-12">
