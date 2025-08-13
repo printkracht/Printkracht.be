@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { LangProvider } from "@/lib/i18n";
+import { LangProvider } from '@/lib/i18n.tsx'
 
 export const metadata: Metadata = {
   title: "Carwrapping & zonwerende folie | Printkracht",
