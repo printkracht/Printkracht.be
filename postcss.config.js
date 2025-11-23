@@ -1,1 +1,3 @@
-// JS config file
+module.exports = {
+  plugins: {},
+};
