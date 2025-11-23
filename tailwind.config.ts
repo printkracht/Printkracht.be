@@ -1,2 +1,9 @@
-// TS helper placeholder
-export const helper = () => {};
+const config = {
+  content: [],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+export default config;

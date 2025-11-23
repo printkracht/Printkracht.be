@@ -1,1 +1,46 @@
-{ "vehicles": [] }
+{
+  "vehicles": [
+    {
+      "id": "hatchback",
+      "name": "Hatchback",
+      "area": 22,
+      "examples": "VW Golf, Ford Focus",
+      "complexity": 1
+    },
+    {
+      "id": "sedan",
+      "name": "Sedan / Coupé",
+      "area": 25,
+      "examples": "BMW 3-serie, Tesla Model 3",
+      "complexity": 1.05
+    },
+    {
+      "id": "suv",
+      "name": "SUV / Crossover",
+      "area": 30,
+      "examples": "Volvo XC60, Kia Sportage",
+      "complexity": 1.1
+    },
+    {
+      "id": "transit",
+      "name": "Bestelbus (L2H1)",
+      "area": 38,
+      "examples": "Ford Transit Custom, Trafic",
+      "complexity": 1.15
+    },
+    {
+      "id": "l3h2",
+      "name": "Grote bestelbus (L3H2)",
+      "area": 46,
+      "examples": "Sprinter, Crafter, Movano",
+      "complexity": 1.25
+    },
+    {
+      "id": "truck",
+      "name": "Vracht / Trailer segment",
+      "area": 65,
+      "examples": "Box truck, trailerzijde",
+      "complexity": 1.35
+    }
+  ]
+}
