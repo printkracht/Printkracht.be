@@ -1,0 +1,11 @@
+Voertuigtype;Soort folie;€ Folie/m2;€ uren/m2;Totaal €/m2
+Auto;Wrap;55;70;125
+Auto;Belettering;25;40;65
+Camionette;Wrap;60;80;140
+Camionette;Belettering;28;45;73
+Camionette bumpers;Wrap;50;60;110
+Camionette bumpers;Belettering;22;35;57
+Camion cabine;Wrap;65;90;155
+Camion cabine;Belettering;30;50;80
+Camion laadbak;Wrap;75;100;175
+Camion laadbak;Belettering;32;55;87
