@@ -157,8 +157,10 @@ export function parseSvgLayers(svgText: string): SvgParseResult {
   const meterPerUnit = getMeterPerUnit(svg);
   const shapesSelector = "rect,circle,ellipse,polygon,polyline,path,line";
 
-  const groups = Array.from(svg.querySelectorAll("g"));
-  const layersToProcess = groups.length > 0 ? groups : [svg];
+  const topLevelGroups = Array.from(svg.children).filter(
+    (child): child is SVGGElement => child.tagName.toLowerCase() === "g",
+  );
+  const layersToProcess = topLevelGroups.length > 0 ? topLevelGroups : [svg];
   const seenShapes = new Set<Element>();
 
   const layers: LayerArea[] = layersToProcess.map((layer, index) => {
